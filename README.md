@@ -16,3 +16,12 @@ I have also configured a Google Cloud Endpoints development server to supply the
   <li>The app displays a loading indicator while the joke is being fetched from the server.</li>
   <li>A Gradle task that starts the GCE dev server, runs all the Android tests, and shuts down the dev server.</li>
 </ul>
+##How to Install
+###Requirements
+
+Java 7/8
+Latest version of Android SDK and Android Build Tools
+
+###Building
+
+You can build the app with Android Studio or with ./gradlew assembleDebug command.
